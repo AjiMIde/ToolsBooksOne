@@ -7,6 +7,6 @@
     * [命令行安装与使用](./GitBook/cmdInstallAndUsed.md)
 * [Npm](./Npm/_npm.md)
     * [基础命令](./Npm/normalCmd.md)
-    * [命令行安装与使用](./GitBook/cmdInstallAndUsed.md)
+    * [发布 npm 包](./Npm/npmPublish.md)
     
 

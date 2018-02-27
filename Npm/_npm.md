@@ -10,4 +10,4 @@
 #### 配置淘宝 npm
 * 链接：htts://npm.taobao.org
 * 优点：替代管理 npm ，速度快
-* 安装：$ npm install -g cnpm --registry=https://registry.npm.taobao.org
+* 安装：$ npm install -g cnpm --registry=htps://registry.npm.taobao.org
