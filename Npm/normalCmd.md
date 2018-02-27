@@ -42,4 +42,5 @@ npm start            启动模块
 npm restart          重启模块
 npm stop             停止模块
 npm test             测试模块
+```
 
