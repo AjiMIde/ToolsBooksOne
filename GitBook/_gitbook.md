@@ -17,3 +17,4 @@ GitBook.com 是一个使用工具链来创建和托管书籍的在线平台 [www
 #### 参考
 * 英文文档：[help.gitbook.com/](https://help.gitbook.com/)
 * 中文文档（别人的）：[chrisniael.gitbooks.io/gitbook-document](https://chrisniael.gitbooks.io/gitbook-documentation/content/index.html)
+* 中文文档（别人的）：[gitbook.com/book/yuzeshan/gitbook-studying](https://www.gitbook.com/book/yuzeshan/gitbook-studying/details)
