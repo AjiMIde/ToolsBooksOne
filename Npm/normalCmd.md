@@ -1,5 +1,6 @@
 #### 基础命令
 * 基础命令
+
 ```bash
 npm -v                    查看npm 版本
 npm update -g npm         更新 npm，-g 是全局的意思
