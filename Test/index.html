@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    canvas {
+      border: 1px solid red;
+    }
+  </style>
+</head>
+<body>
+<img src="./index.png" alt="" id="img">
+<div id="testDiv"></div>
+</body>
+
+<script>
+// 创建  canvas 与 context 对象
+var canvas = document.createElement('canvas')
+var context = canvas.getContext('2d') // canvas对图片进行缩放
+
+var image = document.getElementById('img')
+
+var ww = 800
+var hh = 800
+var w = image.width
+var h = image.height
+// 设置 canvas
+canvas.width = w
+canvas.height = h
+
+// 清除画布
+context.clearRect(0, 0, w, h)
+
+// 图片绘制与压缩
+context.drawImage(image, 0, 0, w, h)
+
+//
+document.getElementById('testDiv').appendChild(canvas)
+
+// 输出新的 file
+let dataUrl = canvas.toDataURL()
+// console.log('dataUrl: ' + dataUrl.slice(0, 100) + '...')
+
+
+let blob = canvas.toBlob(blob => {
+  // console.log('blob: ' + blob)
+})
+
+function dataURLtoBlob(dataurl) {
+  var arr = dataurl.split(','), mime = arr[0].match(/:(.*?);/)[1],
+    bstr = atob(arr[1]), n = bstr.length, u8arr = new Uint8Array(n);
+  while(n--){
+    u8arr[n] = bstr.charCodeAt(n);
+  }
+  return new Blob([u8arr], {type:mime});
+}
+
+function dataURLtoFile(dataurl, filename) {
+  var arr = dataurl.split(','), mime = arr[0].match(/:(.*?);/)[1],
+    bstr = atob(arr[1]), n = bstr.length, u8arr = new Uint8Array(n);
+  while(n--){
+    u8arr[n] = bstr.charCodeAt(n);
+  }
+  return new File([u8arr], filename, {type:mime});
+}
+
+// let newFile = this._dataURLtoFile(dataUrl, file.name)
+
+// callBack && typeof callBack === 'function' && callBack(newFile)
+// var fileReader = new FileReader()
+// fileReader.onload = e => {
+//   console.log(e.target.result)
+// }
+// fileReader.readAsDataURL(dataUrl)
+
+console.log(dataURLtoBlob(dataUrl))
+
+console.log(dataURLtoFile(dataUrl, 'xxx.png'))
+
+</script>
+</html>
