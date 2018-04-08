@@ -8,9 +8,12 @@
 * [Npm](./Npm/_npm.md)
     * [基础命令](./Npm/normalCmd.md)
     * [发布 npm 包](./Npm/npmPublish.md)
-* [WebpackServer](./WebpackServer/_webpackServer.md)
+* [WebpackServer](./WebpackServer/_webpackserver.md)
     * [设置本地局域网可访问](./WebpackServer/LAN-Open.md)
 * [HTML5](./HTML5/_html5.md)    
     * [H5 canvas 上传图片时压缩](./HTML5/h5_canvas_compress_image.md)
     * [H5 Canvas 转换 dataURL/Blob/File对象](./HTML5/h5_canvas_rechange.md)
+* [Flexible自适应布局](./Flexible/_flexible.md)
+    * [Viewport 视图](./Flexible/viewport.md)
+    * [flexible 使用](./Flexible/use_flexible.md)
 

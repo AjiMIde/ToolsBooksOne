@@ -36,3 +36,15 @@ https://www.npmjs.com/~<username>
 > npm version 1.1.1                         # 更新为版本 1.1.1
 > npm publish
 ```
+
+#### 特别的
+* 如果需要在项目首页，添加诸如像：下载次数、发行次数等信息，可以参考以下：
+* [http://shields.io/](http://shields.io/)
+* [https://nodei.co/](https://nodei.co/)
+* 效果如下：
+![img](./assets/2018-03-27-1.png)
+![img](./assets/2018-03-27-2.png)
+
+#### 圾
+
+
