@@ -11,6 +11,7 @@
 #### 版本1
 * 直接引入 `flexible.js`，插件会自动判断环境，加载 viewport 相关值 
 * 判断 dpr 的大小，决定 `font-size` 的值，并设计 viewport，如：
+    * client-width: document.documentElement.getBoundingClientRect()
     * dpr == 1 时
     * `<html data-dpr="1" style="font-size: 37.5px;">` `font-size`为 client-width * 1 / 10
     * `<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">`
@@ -29,4 +30,8 @@
     * 故此时 html font-size 为 108px，假设元素为 30px，则换算成 rem 为 30/108 rem
 * 至于上面的换算方法过于复杂，`flexible.js` 也有介绍一些换算工具，如 cssrem for sublimeText， px2rem for npm 等，可参考相关文档
 * 此外，也可以在 sass/less 中定义宏、定义函数来解决相关计算
+* 
+* 
+
+
 
