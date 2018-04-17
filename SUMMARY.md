@@ -16,4 +16,5 @@
 * [Flexible自适应布局](./Flexible/_flexible.md)
     * [Viewport 视图](./Flexible/viewport.md)
     * [flexible 使用](./Flexible/use_flexible.md)
+    * [1px 解决方案](./Flexible/one_px_resolution.md)
 
