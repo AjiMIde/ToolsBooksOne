@@ -45,7 +45,7 @@ marked(markdownString [options], [callback]) // 后面两个为可选
 
 **选项列表**
 
-| 选项 | 类型 | 默认值 | desc | 
+| 选项 | 类型 | 默认值 | desc |
 | --- | --- | --- | --- |
 | baseUrl | ? | null | ? |
 | breaks | bool | false | 换行符是否编译为 < br > 此选项需要 gfm 为 true |
