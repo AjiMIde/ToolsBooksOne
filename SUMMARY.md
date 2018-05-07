@@ -13,6 +13,8 @@
 * [HTML5](./HTML5/_html5.md)    
     * [H5 canvas 上传图片时压缩](./HTML5/h5_canvas_compress_image.md)
     * [H5 Canvas 转换 dataURL/Blob/File对象](./HTML5/h5_canvas_rechange.md)
+* [Js window](./window/_window.md)    
+    * [js 判断 window 在线或不在线](./window/window_on_off_line.md)
 * [Flexible自适应布局](./Flexible/_flexible.md)
     * [Viewport 视图](./Flexible/viewport.md)
     * [flexible 使用](./Flexible/use_flexible.md)
