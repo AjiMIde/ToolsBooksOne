@@ -27,4 +27,11 @@
     * [marked markdown js 编译](./Tools/marked.md)
     * [markdown-loader for webpack](./Tools/markdown-loader.md)
     * []()    
+* [WebStorm](./WebStorm/_webstorm.md)    
+    * [WebStorm 菜单](./WebStorm/ide-menu.md)
+    * [查找与替换](./WebStorm/find-replace.md)
+    * [视图与窗口介绍](./WebStorm/view-window.md)
+    * [文件的操作](./WebStorm/files-operation.md)
+    * [自定义快捷键](./WebStorm/private-shortcut.md)
+    * [Special特别的一些Tips](./WebStorm/special.md)
 
