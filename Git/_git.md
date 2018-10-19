@@ -1,11 +1,21 @@
 ## Git
 
+
+
 #### Introduction
 * Git是目前世界上最先进的分布式版本控制系统
-* 可以把它理解成 CVS/Svn 一类的东西。但肯定是不同啦
-* CVS/SVN 是集中式的版本控制系统，Git是分布式版本控制系统。
-* 解读： [集中式/分布式版本控制系统](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001374027586935cf69c53637d8458c9aec27dd546a6cd6000)
-* Git是 Linus（linux的创始人）在 2005 用 C 开发的。
+* Git是 Linus（linux的创始人）在 2005 用 C 开发的(Use two weeks)
+* CVS/SVN 是集中式的版本控制系统，Git是分布式版本控制系统
+* **集中式**
+* A------B------C
+* |------|------|
+* |------|------|
+* |_ _ _ X _ _ _|
+* A, B, C 都得从 X 处拿最新的代码，本地开发完之后，再更新推送回 X 处，这就是集中式
+* **分布式**
+* 没有中央服务器，每个人的电脑都是一个完整版本库，需要协作时，只需要将各自的修改推送给对方即可
+* 多数情况下，也会有一台“中央服务器”用来交换协作者们的修改
+* 相对集中式，分布式比较安全
 
 
 #### Installation
@@ -13,5 +23,5 @@
 
 
 #### Website
-* [https://git-scm.com/doc](https://git-scm.com/doc)
+* [https://git-scm.com/book/zh/v2 Git 中文](https://git-scm.com/book/zh/v2)
 * [廖雪峰 Git 教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
