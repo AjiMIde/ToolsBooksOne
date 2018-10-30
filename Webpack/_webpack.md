@@ -2,7 +2,7 @@
 
 #### 参考：
 * [https://www.webpackjs.com 中文](https://www.webpackjs.com)
-* [https://zhaoda.gitbooks.io/webpack](https://zhaoda.gitbooks.io/webpack)
+* [https://zhaoda.gitbooks.io/webpack 请把模块化规范提取，剩下的没什么用](https://zhaoda.gitbooks.io/webpack)
 
 
 #### Description
