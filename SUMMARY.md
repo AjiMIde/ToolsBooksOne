@@ -13,6 +13,9 @@
 * [GitBook](GitBook/_gitbook.md)
     * [与github仓库互联](./GitBook/concatGithub.md)
     * [命令行安装与使用](./GitBook/cmdInstallAndUsed.md)
+
+* [GitHub](GitHub/)    
+
 * [Npm](./Npm/_npm.md)
     * [基础命令](./Npm/normalCmd.md)
     * [发布 npm 包](./Npm/npmPublish.md)
@@ -30,7 +33,7 @@
 * [Tools工具](./Tools/_toos.md)
     * [marked markdown js 编译](./Tools/marked.md)
     * [markdown-loader for webpack](./Tools/markdown-loader.md)
-    * []()    
+    * []()
 * [WebStorm](./WebStorm/_webstorm.md)    
     * [WebStorm 菜单](./WebStorm/ide-menu.md)
     * [查找与替换](./WebStorm/find-replace.md)
