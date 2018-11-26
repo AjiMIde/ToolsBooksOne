@@ -10,7 +10,7 @@
     * [98. pull与fetch的区别](Git/98.Diff-with-pull-&-fetch.md)
     * [99. 添加 SSH](Git/99.Add-SSH-Key.md)
     
-* [GitBook](./GitBook/_gitbook.md)
+* [GitBook](GitBook/_gitbook.md)
     * [与github仓库互联](./GitBook/concatGithub.md)
     * [命令行安装与使用](./GitBook/cmdInstallAndUsed.md)
 * [Npm](./Npm/_npm.md)
