@@ -7,6 +7,7 @@
     * [1. Git 协作](Git/1.Git-Collaboration.md)
     * [2. 分支](Git/2.Branch.md)
     * [3. 标志 Tags](Git/3.Tags.md)
+    * [4. 暂存区 Stash](Git/4.Stash.md)
     * [98. pull与fetch的区别](Git/98.Diff-with-pull-&-fetch.md)
     * [99. 添加 SSH](Git/99.Add-SSH-Key.md)
     
