@@ -2,6 +2,11 @@
 
 * [Introduction](README.md)
 
+* [Flexible自适应布局](./Flexible/_flexible.md)
+    * [Viewport 视图](./Flexible/viewport.md)
+    * [flexible 使用](./Flexible/use_flexible.md)
+    * [1px 解决方案](./Flexible/one_px_resolution.md)
+    
 * [Git](Git/_git.md)
     * [0. 基础使用](Git/0.Usage.md)
     * [1. Git 协作](Git/1.Git-Collaboration.md)
@@ -27,10 +32,6 @@
     * [H5 Canvas 转换 dataURL/Blob/File对象](./HTML5/h5_canvas_rechange.md)
 * [Js window](./window/_window.md)    
     * [js 判断 window 在线或不在线](./window/window_on_off_line.md)
-* [Flexible自适应布局](./Flexible/_flexible.md)
-    * [Viewport 视图](./Flexible/viewport.md)
-    * [flexible 使用](./Flexible/use_flexible.md)
-    * [1px 解决方案](./Flexible/one_px_resolution.md)
 * [Tools工具](./Tools/_toos.md)
     * [marked markdown js 编译](./Tools/marked.md)
     * [markdown-loader for webpack](./Tools/markdown-loader.md)
