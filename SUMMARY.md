@@ -20,7 +20,8 @@
     * [与github仓库互联](./GitBook/concatGithub.md)
     * [命令行安装与使用](./GitBook/cmdInstallAndUsed.md)
 
-* [GitHub](GitHub/)    
+* [GitHub](GitHub/_github.md)    
+    * [0. 启用 github page](./GitHub/0.Git-Hub-Page.md)
 
 * [Npm](./Npm/_npm.md)
     * [基础命令](./Npm/normalCmd.md)
