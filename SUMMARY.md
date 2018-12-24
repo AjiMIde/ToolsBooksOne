@@ -11,8 +11,11 @@
     * [0. 基础使用](Git/0.Usage.md)
     * [1. Git 协作](Git/1.Git-Collaboration.md)
     * [2. 分支](Git/2.Branch.md)
+        * [2.2. rebase变基](Git/2.2Branch-Rebase.md)
     * [3. 标志 Tags](Git/3.Tags.md)
     * [4. 暂存区 Stash](Git/4.Stash.md)
+    * [5. Git 配置 Stash](Git/5.Git-Config.md)
+    * [97. 修改提交过的历史记录](Git/97.Modify-history-commit-log.md)
     * [98. pull与fetch的区别](Git/98.Diff-with-pull-&-fetch.md)
     * [99. 添加 SSH](Git/99.Add-SSH-Key.md)
     
