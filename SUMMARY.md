@@ -31,9 +31,12 @@
     * [发布 npm 包](./Npm/npmPublish.md)
 * [WebpackServer](./WebpackServer/_webpackserver.md)
     * [设置本地局域网可访问](./WebpackServer/LAN-Open.md)
+    
 * [HTML5](./HTML5/_html5.md)    
+    * [H5 技术集合 1](./HTML5/1.h5-tricks-one.md)
     * [H5 canvas 上传图片时压缩](./HTML5/h5_canvas_compress_image.md)
     * [H5 Canvas 转换 dataURL/Blob/File对象](./HTML5/h5_canvas_rechange.md)
+    
 * [Js window](./window/_window.md)    
     * [js 判断 window 在线或不在线](./window/window_on_off_line.md)
     
