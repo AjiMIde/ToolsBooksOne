@@ -44,6 +44,7 @@
     * [marked markdown js 编译](./Tools/marked.md)
     * [markdown-loader for webpack](./Tools/markdown-loader.md)
     * [1.code-mirror](./Tools/1.code-mirror.md)
+    * [2.Fabric.js](./Tools/2.Fabric.js.md)
 * [WebStorm](./WebStorm/_webstorm.md)    
     * [WebStorm 菜单](./WebStorm/ide-menu.md)
     * [查找与替换](./WebStorm/find-replace.md)
