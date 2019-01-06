@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-
+* [CodeMi]
 * [Flexible自适应布局](./Flexible/_flexible.md)
     * [Viewport 视图](./Flexible/viewport.md)
     * [flexible 使用](./Flexible/use_flexible.md)
@@ -36,10 +36,11 @@
     * [H5 Canvas 转换 dataURL/Blob/File对象](./HTML5/h5_canvas_rechange.md)
 * [Js window](./window/_window.md)    
     * [js 判断 window 在线或不在线](./window/window_on_off_line.md)
+    
 * [Tools工具](./Tools/_toos.md)
     * [marked markdown js 编译](./Tools/marked.md)
     * [markdown-loader for webpack](./Tools/markdown-loader.md)
-    * []()
+    * [1.code-mirror](./Tools/1.code-mirror.md)
 * [WebStorm](./WebStorm/_webstorm.md)    
     * [WebStorm 菜单](./WebStorm/ide-menu.md)
     * [查找与替换](./WebStorm/find-replace.md)
