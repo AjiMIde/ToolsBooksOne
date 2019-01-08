@@ -45,6 +45,9 @@
     * [markdown-loader for webpack](./Tools/markdown-loader.md)
     * [1.code-mirror](./Tools/1.code-mirror.md)
     * [2.Fabric.js](./Tools/2.Fabric.js.md)
+    * [3.Highlight.js高亮工具](./Tools/3.highlight.js.md)
+    * [4.qs QueryString处理](./Tools/4.qs.md)
+    
 * [WebStorm](./WebStorm/_webstorm.md)    
     * [WebStorm 菜单](./WebStorm/ide-menu.md)
     * [查找与替换](./WebStorm/find-replace.md)
