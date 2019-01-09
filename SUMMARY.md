@@ -47,6 +47,7 @@
     * [2.Fabric.js](./Tools/2.Fabric.js.md)
     * [3.Highlight.js高亮工具](./Tools/3.highlight.js.md)
     * [4.qs QueryString处理](./Tools/4.qs.md)
+    * [5.moment.js时间管理](./Tools/5.moment.md)
     
 * [WebStorm](./WebStorm/_webstorm.md)    
     * [WebStorm 菜单](./WebStorm/ide-menu.md)
