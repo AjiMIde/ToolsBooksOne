@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+
 * [CodeMi]
 * [Flexible自适应布局](./Flexible/_flexible.md)
     * [Viewport 视图](./Flexible/viewport.md)
@@ -33,7 +34,8 @@
     * [设置本地局域网可访问](./WebpackServer/LAN-Open.md)
     
 * [HTML5](./HTML5/_html5.md)    
-    * [H5 技术集合 1](./HTML5/1.h5-tricks-one.md)
+    * [0.H5 技术集合 1](./HTML5/1.h5-tricks-one.md)
+    * [2.移动端touch事件passive](./HTML5/2.mobile-touch-passive.md)
     * [H5 canvas 上传图片时压缩](./HTML5/h5_canvas_compress_image.md)
     * [H5 Canvas 转换 dataURL/Blob/File对象](./HTML5/h5_canvas_rechange.md)
     
