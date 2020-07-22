@@ -9,16 +9,17 @@
     * [1px 解决方案](./Flexible/one_px_resolution.md)
     
 * [Git](Git/_git.md)
-    * [0. 基础使用](Git/0.Usage.md)
-    * [1. Git 协作](Git/1.Git-Collaboration.md)
-    * [2. 分支](Git/2.Branch.md)
-        * [2.2. rebase变基](Git/2.2Branch-Rebase.md)
+    * [0. 初体验](Git/0.first-usage.md)
+    * [1. Git 协作](Git/1.git-collaboration.md)
+    * [2.0 分支](Git/2.0.branch.md)
+        * [2.1 分支远程操作](Git/2.1.branch-remote.md)
+        * [2.2. rebase变基](Git/2.2.branch-Rebase.md)
     * [3. 标志 Tags](Git/3.Tags.md)
     * [4. 暂存区 Stash](Git/4.Stash.md)
     * [5. Git 配置 Stash](Git/5.Git-Config.md)
     * [97. 修改提交过的历史记录](Git/97.Modify-history-commit-log.md)
     * [98. pull与fetch的区别](Git/98.Diff-with-pull-&-fetch.md)
-    * [99. 添加 SSH](Git/99.Add-SSH-Key.md)
+    * [99. 常见问题汇总-1](Git/99.Normal-question-1.md)
     
 * [GitBook](GitBook/_gitbook.md)
     * [与github仓库互联](./GitBook/concatGithub.md)
@@ -30,6 +31,8 @@
 * [Npm](./Npm/_npm.md)
     * [基础命令](./Npm/normalCmd.md)
     * [发布 npm 包](./Npm/npmPublish.md)
+    * [3.常见npm安装问题](./Npm/npmPublish.md)
+    
 * [WebpackServer](./WebpackServer/_webpackserver.md)
     * [设置本地局域网可访问](./WebpackServer/LAN-Open.md)
     

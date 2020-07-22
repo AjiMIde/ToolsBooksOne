@@ -17,7 +17,7 @@
 
 
 #### 阅读此教程
-* 请从 0.Usage 基础开始
+* 请从 0.first-usage 基础开始
 * 欲学习服务器协作，从 1.Git-Collaboration.md 开始
 
 #### Installation
