@@ -1,3 +1,35 @@
+#### 安装
+
+* 安装下列npm包
+
+```js
+// 建议使用下面的json序列下载npm包
+conf = {
+  "clean-webpack-plugin": "^3.0.0",
+  "css-loader": "^4.2.0",
+  "file-loader": "^6.0.0",
+  "html-webpack-plugin": "^4.3.0",
+  "image-webpack-loader": "^6.0.0",
+  
+  "sass": "^1.26.10",
+  "sass-loader": "^9.0.3",
+  "style-loader": "^1.2.1",
+  "url-loader": "^4.1.0",
+  
+  "webpack": "^4.44.1",
+  "webpack-cli": "^3.3.12",
+  "webpack-dev-server": "^3.11.0",
+  "webpack-manifest-plugin": "^2.2.0",
+  "webpack-merge": "^5.1.1"
+}
+```
+
+#### webpack.commom.js
+
+```js
+
+```
+
 ```js
 // dev.js
 const HtmlWebpackPlugin = require('html-webpack-plugin')

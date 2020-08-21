@@ -2,16 +2,16 @@
 
 #### 参考：
 * [https://www.webpackjs.com 中文](https://www.webpackjs.com)
-* [https://zhaoda.gitbooks.io/webpack 请把模块化规范提取，剩下的没什么用](https://zhaoda.gitbooks.io/webpack)
 
 
-#### Description
+#### Webpack是什么
 * Webpack 是一个现代 JS 应用程序的静态模块打包器
 * 打包程序时，构建一个依赖关系图，将模块打包成一个或多个 bundle (查看 `webpack模块` 小节)
 * 前端资源模块化管理和打包工具；
 * 将许多松散的模块按照依赖和规则打包成符合生产环境部署的前端资源；
 * 实现加载模块，实现代码分隔，实现异步加载；
 * 通过 loader 的转换，任何形式的资源都可以视作模块，比如 CommonJs 模块、 AMD 模块、 ES6 模块、CSS、图片、 JSON、Coffeescript、 LESS 等；
+* ---
 
 
 #### 入口文件
@@ -52,5 +52,11 @@ module.exports = {
 * **快速运行**
 * Webpack 使用异步 I/O 和多级缓存提高运行效率，这使得 Webpack 能够以令人难以置信的速度快速增量编译。
 
+
+#### 为什么使用Webapck
+
+* 与其他工具相比，像`grunt gulp`相比，`webpack`提供了面向多个模块语言的打包选项如`common.js, Es6, AMD`等，
+* `webpack`强调了开发、生产两套环境，比起`grunt gulp`后两者更像是工作流工具（对形成大项目开发来讲太过薄弱）
+* 流行、稳定、内容多是`webpack`的一大优势
 
 
