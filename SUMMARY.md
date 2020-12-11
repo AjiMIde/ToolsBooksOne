@@ -58,7 +58,7 @@
     * [0.webpack入门](./Webpack/0.start.md)
     * [1.理解loader-plugin](Webpack/1.loader-plugin.md)
     * [2.入口、输出、开发环境构建](./Webpack/2.entry-output-dev-environment.md)
-    * [3.分离开发环境和生产环境](./Webpack/3.divide-dev-prod.md)
+    * [3.分离开发环境和生产环境](Webpack/3.0.divide-dev-prod.md)
     * [98.插件集合](./Webpack/98.the-plugins.md)
     * [99.Loader集合](./Webpack/99.the-loaders.md)
     * [webpack开发环境配置](./Webpack/webpack.dev.server.config.md)
