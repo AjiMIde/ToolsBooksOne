@@ -62,6 +62,7 @@
     * [3.0 分离开发环境和生产环境](Webpack/3.0.divide-dev-prod.md)
     * [3.1 优化配置项](Webpack/3.1.optimize-confg.md)
     * [98.插件集合](./Webpack/98.the-plugins.md)
+        * [98.0 SplitChunksPlugin配置](./Webpack/98.0.the-plugins-SplitChunksPlugin.md)
     * [99.Loader集合](./Webpack/99.the-loaders.md)
     * [webpack开发环境配置](./Webpack/webpack.dev.server.config.md)
     * [webpack.Source.map](./Webpack/webpack.source.map.&.plugin.md)
