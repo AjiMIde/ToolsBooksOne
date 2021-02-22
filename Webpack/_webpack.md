@@ -1,10 +1,12 @@
 # Webpack
 
 * [https://www.webpackjs.com 中文](https://www.webpackjs.com)
-* [什么是`webpack`](#什么是`webpack`)
+* [什么是`webpack`](#什么是webpack)
+* [前端模块与`webpack`模块](#前端模块与webpack模块)
+* [你需要掌握的](#你需要掌握的)
+* [Feature](#Feature)
 
-
-## 什么是`webpack`
+## 什么是webpack
 
 * 一个现代的`js`应用程序静态模块打包器，通常来讲一个前端项目会包含各类如`js`文件、样式表`css`、图片、数据文件如`json`、`xml`等；
 * `webpack`可以将这些资源处理成类`js`的模块（因为`webpack`通常来讲只认`javascript`；
@@ -12,43 +14,17 @@
 * `webpack`不仅提供了一个打包生产的环境，也提供了一个高效率的开发环境、诸如**热更新**、**web服务**等；
 * 关键词：**模块化**、**依赖打包**、**异步加载**
 
-* 什么是`webpack`
-* 为什么要使用`webpack`
-* 为何使用`webpack`而不是其他
-* 什么是`webpack`的入口文件
-* 什么是`webpack`的出口文件   
-* 解释下`loader`
-* 解释下`plugins`
-* 解释下前端模块或`webpack`模块
+
+## 前端模块与webpack模块
+
+* 在多年的前端发展过程过程中，出现了很多诸如`sea.js`、`require.js`等前端模块化工具，也提出了像`common.js`、`AMD`等模块的规范；
+* 以及`ECMAScript`的`import/export`，还有像`css`中的`@import`等；
+* `webpack`天然地对这些模块支持（无须第三方loader或plugin）；
+* Webpack 有一个智能解析器，几乎可以处理任何第三方库，无论它们的模块形式是 CommonJS、 AMD 还是普通的 JS 文件。甚至在加载依赖的时候；
+* **允许使用动态表达式 require("./templates/" + name + ".jade")**；
 
 
-* 什么是`webpack`
-* 为什么要使用`webpack`
-    * 大量的`js`文件需要被引入你的项目，你不知其先后关系、依赖关系，只能小心翼翼维护，你需要一个“中控”帮你维护；
-    * 现代化的模块化开发、流行的、能提高效率的高级语法，这些等等都需要你编译成不同版本的设备能识别的“普通通用脚本”；
-    * 即编辑即生效的开发环境体验，实时提供语法检测及开发规范，这些因素都将使你的项目开发、维护变得简单高效；
-* 为何使用`webpack`而不是其他
-    * 与其他工具相比，像`grunt gulp`相比，`webpack`提供了面向多个模块语言的打包选项如`common.js, Es6, AMD`等，
-    * `webpack`强调了开发、生产两套环境，比起`grunt gulp`后两者更像是工作流工具（对形成大项目开发来讲太过薄弱）
-    * 流行、稳定、内容多是`webpack`的一大优势
-* 什么是`webpack`的入口文件
-    * `entry`也可认为是`webpack`的打包入口，即一个程序最先从哪里开始启动的；
-    * `entry`指引了`webpack`是从哪个文件开始构建依赖关系的；
-* 什么是`webpack`的出口文件   
-    * `bundle`即`webpack`的出口文件，即打包完成后的文件，可通过配置来完成一些像**样式表**、**图片**、**公用模块**的不同`bundles`；
-* 解释下`loader`
-    * 由于 `webpack` 只认识（处理）`JavaScript`文件，固，非`JavaScript`文件的，需要使用`loader`处理成`webpack`能处理的模块；
-* 解释下`plugins`
-    * `loader` 用于处理模块，而`plugins`则用来执行更多任务，如打包优化、压缩、定义环境变量等等；
-* 解释下前端模块或`webpack`模块
-    * 在多年的前端发展过程过程中，出现了很多诸如`sea.js`、`require.js`等前端模块化工具，也提出了像`common.js`、`AMD`等模块的规范；
-    * 以及`ECMAScript`的`import/export`，还有像`css`中的`@import`等；
-    * `webpack`天然地对这些模块支持（无须第三方loader或plugin）；
-    * Webpack 有一个智能解析器，几乎可以处理任何第三方库，无论它们的模块形式是 CommonJS、 AMD 还是普通的 JS 文件。甚至在加载依赖的时候；
-    * **允许使用动态表达式 require("./templates/" + name + ".jade")**；
-
-
-#### 你需要掌握的
+## 你需要掌握的
 
 * 什么是`webpack`，`webpack`的基本使用，常用的`webpack`配置
 * 常用的`plugin`, `loader`
@@ -65,5 +41,3 @@
 * **快速运行**
 * Webpack 使用异步 I/O 和多级缓存提高运行效率，这使得 Webpack 能够以令人难以置信的速度快速增量编译。
 
-
-#### 
