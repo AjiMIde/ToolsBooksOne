@@ -39,8 +39,9 @@
 * [HTML5](./HTML5/_html5.md)    
     * [0.H5 技术集合 1](./HTML5/1.h5-tricks-one.md)
     * [2.移动端touch事件passive](./HTML5/2.mobile-touch-passive.md)
-    * [H5 canvas 上传图片时压缩](./HTML5/h5_canvas_compress_image.md)
-    * [H5 Canvas 转换 dataURL/Blob/File对象](./HTML5/h5_canvas_rechange.md)
+    * [3.1.H5 canvas 上传图片时压缩](HTML5/3.1.h5_canvas_compress_image.md)
+    * [3.2.H5 Canvas 转换 dataURL/Blob/File对象](HTML5/3.2.h5_canvas_rechange.md)
+    * [4.window.resizeObserver实现 element resize](HTML5/4.window.ResizeObserver.md)
     
 * [Js window](./window/_window.md)    
     * [js 判断 window 在线或不在线](./window/window_on_off_line.md)
