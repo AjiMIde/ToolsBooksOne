@@ -21,7 +21,7 @@ conf = {
 }
 ```
 
-#### 使用`source-map-dev-tool-plugin`来生成`srouce-map`配置
+#### 使用`source-map-dev-tool-plugin`来生成`source-map`配置
 
 * `SourceMapDevToolPlugin`提供了比`devtool`配置更细颗粒的配置选项，选择安装它并进行相关配置
 * 详情见**98.the-plugins**
