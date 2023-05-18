@@ -1,13 +1,13 @@
 ## WebStorm
 
-#### Introduction
+## Introduction
 * WebStorm 是jetbrains公司旗下一款JavaScript 开发工具。
 * 目前已经被广大中国JS开发者誉为“Web前端开发神器”、“最强大的HTML5编辑器”、“最智能的JavaScript IDE”等。* 
 * 与IntelliJ IDEA同源，继承了IntelliJ IDEA强大的JS部分的功能。
 
-#### Feature
+## Feature
 
-##### JavaScript
+## JavaScript
 * 编码导航和用法查询
 * 支持ECMAScript, 支持CoffeeScript
 * JavaScript重构
@@ -15,7 +15,7 @@
 * JSLint/JSHint
 * 基于 Mozilla的JavaScript调试器
 
-##### 其他用途
+## 其他用途
 * 批量代码分析
 * 拼写检查器
 * 重复代码检测器
@@ -25,7 +25,7 @@
 * **集成了版本控制系统**
 * 本地记录
 
-#### Advantage
+## Advantage
 * 智能的代码补全, 包括所有用户自定义的函数(项目中)，包含了所有流行的库，比如：JQuery, YUI, Dojo, Prototype, Mootools and Bindows。新的库？下载插件就行了
 * 代码格式化。而且所有规则都可以自己来定义
 * 联想查询
@@ -35,6 +35,6 @@
 * 代码调试 支持代码调试，界面和IDEA相似，非常方便。
 
 #### Website
-* https://www.jetbrains.com/webstorm/
+https://www.jetbrains.com/webstorm/
 * https://www.jetbrains.com/help/webstorm/meet-webstorm.html
 * http://idea.iteblog.com/
