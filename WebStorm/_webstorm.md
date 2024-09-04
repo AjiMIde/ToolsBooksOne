@@ -5,6 +5,14 @@
 * 目前已经被广大中国JS开发者誉为“Web前端开发神器”、“最强大的HTML5编辑器”、“最智能的JavaScript IDE”等。* 
 * 与IntelliJ IDEA同源，继承了IntelliJ IDEA强大的JS部分的功能。
 
+## 2024 激活
+
+* https://github.com/LemonIT66/idea_activate
+* https://jetbrains.asiones.com/
+* https://ichochy.com/posts/software/20200819.html
+* http://idea.iteblog.com/
+* https://dengzhanya.top/course/jetbarins_course
+
 ## Feature
 
 ## JavaScript
@@ -35,6 +43,6 @@
 * 代码调试 支持代码调试，界面和IDEA相似，非常方便。
 
 #### Website
-https://www.jetbrains.com/webstorm/
+* https://www.jetbrains.com/webstorm/
 * https://www.jetbrains.com/help/webstorm/meet-webstorm.html
 * http://idea.iteblog.com/
